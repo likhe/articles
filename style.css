@@ -1,0 +1,66 @@
+body {
+ background-color: black;
+ color: antiquewhite;
+ max-width: 100%;
+ margin: 0;
+ box-sizing: border-box;
+}
+button {
+position: absolute;
+top: 0;
+right: 0;
+z-index: 1;
+background-color: orange;
+border: 0;
+padding: 3px;
+text-decoration: none;
+}
+button:hover{
+transition: 4s fast;
+color: white;
+font-weight: bolder;
+padding: 1%;
+}
+button:active{
+color: white;
+font-weight: bolder;
+padding: 1%;
+}
+button:visited {
+  text-decoration: inherit;
+  color: inherit;
+}
+article{
+position: relative;
+float: left;
+padding: 5px;
+width: 50%;
+border: 1px solid #aaa;
+box-sizing: border-box;
+}
+img {
+padding-right: 5px;
+float: left;
+width: 50%;
+}
+
+h2 {
+  font-family: Arial, sans-serif;
+  color:white;
+  font-size: 28px;
+  text-align: justify;
+}
+
+p {
+  font-family: Verdana, serif;
+  font-size: 16px;
+  text-align: justify;
+}
+article:hover .continue{
+  transition: 2s fast;
+  -webkit-transition: 2s fast;
+  -moz-transition: 2s fast;
+  font-weight: bolder;
+  color: orange;
+  font-weight: bolder;
+}
